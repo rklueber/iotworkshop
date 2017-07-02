@@ -78,7 +78,7 @@ let updateDisplay = function() {
   let h = 0;
   for(let i=0;i<hwConfig.nOfButtons;i++) {
     h = Math.max(1, Math.ceil(s.button[i].count / max * d.height()));
-    print("Draw:", i*w, h, max);
+    // print("Draw:", i*w, h, max);
     d.fillRoundRect(i * w, d.height() - h, w - 1, h, 3, Adafruit_SSD1306.WHITE);
     d.setCursor(i*w + w * 0.35, d.height() - 11 );
     d.write(JSON.stringify(s.button[i].count));
@@ -102,7 +102,7 @@ AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
     for (let key in s) {
       if (desired[key] !== undefined) s[key] = desired[key];
     }
-    print('Desired: ',JSON.stringify(desired));
+    // print('Desired: ',JSON.stringify(desired));
     AWS.Shadow.update(0, {reported: s});
     updateLedState();
     updateDisplay();
@@ -114,10 +114,10 @@ AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
    ############### */
 
 MQTT.sub('/happyornot/survey/' + s.title, function(conn, topic, msgTxt) {
-  print('Topic:', topic, 'message:', JSON.parse(msgTxt));
+  // print('Topic:', topic, 'message:', JSON.parse(msgTxt));
   let msg = JSON.parse(msgTxt);
   if (msg.device !== id) {
-    print("Remote Update from device ", msg.device);
+    print("Remote Update from device ", msg.device, msgTxt);
     for(let i=0;i<hwConfig.nOfButtons;i++) {
       if (msg.name === s.button[i].name) {
         s.button[i].count = s.button[i].count + 1;
@@ -133,26 +133,41 @@ MQTT.sub('/happyornot/survey/' + s.title, function(conn, topic, msgTxt) {
    Handle Button Press
    ############### */
 
+for(let i=0;i<hwConfig.nOfButtons;i++) {
+  GPIO.set_mode(hwConfig.buttonPin[i],GPIO.MODE_INPUT);
+}
+
+let lastButtonPress = Timer.now();
+
 let updateButtonState = function(i) {
+  let time = Timer.now();
+  if (time < lastButtonPress + 1) {
+    return;
+  }
+  lastButtonPress = time;
   s.button[i].count = s.button[i].count + 1;
   AWS.Shadow.update(0, {desired: s});
   
   updateDisplay();
 
-  let time = Timer.now();
-  let message = JSON.stringify({
+  let message = {
     survey: s.title, 
     device: id, 
     name: s.button[i].name,
     time: time, 
     id: id + '-' + JSON.stringify(time)
-  });
+  };
 
-  let ok = MQTT.pub('/happyornot/survey/' + s.title, message);
-  print('MQTT pub ', ok ? "OK":"NOK", message);
+  let ok = MQTT.pub('/happyornot/survey/' + s.title, JSON.stringify(message));
+  print('MQTT pub ', ok ? "OK":"NOK", message.name);
 };
 
-GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(0)} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[1], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(1)} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[2], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(2)} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[3], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(3)} , null);
+let bp = 0;
+let buttonTest = function(i) {
+  print('Button pressed', bp++);
+};
+
+GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(0);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[1], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(1);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[2], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(2);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[3], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(3);} , null);
