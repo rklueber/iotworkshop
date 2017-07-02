@@ -1,0 +1,371 @@
+- - spi
+  - o
+  - title: SPI settings
+- - spi.enable
+  - b
+  - false
+  - title: Enable SPI
+- - spi.debug
+  - b
+  - false
+  - title: Debug SPI bus activity
+- - spi.unit_no
+  - i
+  - 3
+  - title: Which SPI unit to use, 2 or 3
+- - spi.miso_gpio
+  - i
+  - 19
+  - title: GPIO to use for MISO
+- - spi.mosi_gpio
+  - i
+  - 23
+  - title: GPIO to use for MOSI
+- - spi.sclk_gpio
+  - i
+  - 18
+  - title: GPIO to use for SCLK
+- - spi.cs0_gpio
+  - i
+  - 5
+  - title: GPIO to use for CS0
+- - spi.cs1_gpio
+  - i
+  - -1
+  - title: GPIO to use for CS1
+- - spi.cs2_gpio
+  - i
+  - -1
+  - title: GPIO to use for CS2
+- - i2c
+  - o
+  - title: I2C settings
+- - i2c.enable
+  - b
+  - false
+  - title: Enable I2C
+- - i2c.freq
+  - i
+  - 100000
+  - title: Clock frequency
+- - i2c.debug
+  - b
+  - false
+  - title: Debug I2C bus activity
+- - i2c.sda_gpio
+  - i
+  - 0
+  - title: GPIO to use for SDA
+- - i2c.scl_gpio
+  - i
+  - 0
+  - title: GPIO to use for SCL
+- - i2c.sda_gpio
+  - 32
+- - i2c.scl_gpio
+  - 33
+- - sys.atca
+  - o
+  - title: CryptoAuthLib configuration
+- - sys.atca.enable
+  - b
+  - false
+  - title: Enable the chip
+- - sys.atca.i2c_addr
+  - i
+  - 96
+  - title: I2C address of the chip
+- - sys.atca.ecdh_slots_mask
+  - i
+  - 12
+  - title: Which slots can be used for ECDH (bitmask)
+- - mqtt
+  - o
+  - title: MQTT settings
+- - mqtt.enable
+  - b
+  - false
+  - title: Enable MQTT
+- - mqtt.server
+  - s
+  - iot.eclipse.org:1883
+  - title: MQTT server
+- - mqtt.client_id
+  - s
+  - ""
+  - title: ClientID t send to the broker. Defaults to device.id.
+- - mqtt.user
+  - s
+  - ""
+  - title: User name
+- - mqtt.pass
+  - s
+  - ""
+  - title: Password
+- - mqtt.reconnect_timeout_min
+  - d
+  - 2
+  - title: Starting reconnect timeout
+- - mqtt.reconnect_timeout_max
+  - d
+  - 60
+  - title: Maximum reconnect timeout
+- - mqtt.ssl_cert
+  - s
+  - ""
+  - title: Client certificate to present to the server
+- - mqtt.ssl_key
+  - s
+  - ""
+  - title: Private key corresponding to the certificate
+- - mqtt.ssl_ca_cert
+  - s
+  - ""
+  - title: Verify server certificate using this CA bundle
+- - mqtt.ssl_cipher_suites
+  - s
+  - ""
+  - title: Cipher suites to offer to the server
+- - mqtt.ssl_psk_identity
+  - s
+  - ""
+  - title: PSK identity (must specify PSK cipher suites)
+- - mqtt.ssl_psk_key
+  - s
+  - ""
+  - title: PSK key
+- - mqtt.clean_session
+  - b
+  - true
+  - title: Clean Session
+- - mqtt.keep_alive
+  - i
+  - 60
+  - title: Keep alive interval
+- - mqtt.will_topic
+  - s
+  - ""
+  - title: Will topic
+- - mqtt.will_message
+  - s
+  - ""
+  - title: Will message
+- - debug.stdout_topic
+  - s
+  - ""
+  - title: MQTT topic to publish STDOUT to
+- - debug.stderr_topic
+  - s
+  - ""
+  - title: MQTT topic to publish STDERR to
+- - debug.stdout_topic
+  - esp32_??????/log
+- - debug.stderr_topic
+  - esp32_??????/log
+- - aws
+  - o
+  - title: AWS settings
+- - aws.shadow
+  - o
+  - title: AWS Device Shadow settings
+- - aws.shadow.thing_name
+  - s
+  - ""
+  - title: Set thing name. If not specified, device.id is used
+- - http
+  - o
+  - title: HTTP Server
+- - http.enable
+  - b
+  - true
+  - title: Enable HTTP Server
+- - http.listen_addr
+  - s
+  - "80"
+  - title: Listening port / address
+- - http.ssl_cert
+  - s
+  - title: Turn on SSL on the listener, use this cert
+- - http.ssl_key
+  - s
+  - title: SSL key to use
+- - http.ssl_ca_cert
+  - s
+  - title: Verify clients this CA bundle
+- - http.upload_acl
+  - s
+  - '*'
+  - title: Upload file ACL
+- - http.hidden_files
+  - s
+  - title: Hidden file pattern
+- - http.auth_domain
+  - s
+  - title: Enable authentication of all HTTP requests
+- - http.auth_file
+  - s
+  - title: Password file to use for auth
+- - dns_sd
+  - o
+  - title: DNS-SD service discovery
+- - dns_sd.enable
+  - b
+  - false
+  - title: Enable service discovery
+- - dns_sd.host_name
+  - s
+  - mOS_??????
+  - title: DNS-SD host name. '?' chars will be expanded with MAC address hex digits
+- - dns_sd.txt
+  - s
+  - ""
+  - title: Extra comma-separated key=value pairs to put into the TXT service record
+- - dns_sd.ttl
+  - i
+  - 120
+  - title: Time-to-live in seconds
+- - dns_sd.host_name
+  - mOS_esp32_??????
+- - gcp
+  - o
+  - title: GCP IOT settings
+- - gcp.enable
+  - b
+  - false
+  - title: Enable GCP IOT
+- - gcp.project
+  - s
+  - ""
+  - title: Project ID
+- - gcp.region
+  - s
+  - ""
+  - title: Region name
+- - gcp.registry
+  - s
+  - ""
+  - title: Device registry name
+- - gcp.device
+  - s
+  - ""
+  - title: Device name
+- - gcp.key
+  - s
+  - ""
+  - title: Private key to use for token signing
+- - gcp.token_ttl
+  - i
+  - 3600
+  - title: Life time of the token
+- - mjs
+  - o
+  - title: mJS settings
+- - mjs.generate_jsc
+  - b
+  - true
+  - title: Generate .jsc file when executing any .js file
+- - update.url
+  - s
+  - title: Fetch updates form here
+- - update.interval
+  - i
+  - title: Check for updates this often
+- - update.ssl_ca_file
+  - s
+  - ca.pem
+  - title: TLS CA file
+- - update.ssl_client_cert_file
+  - s
+  - title: TLS client cert file
+- - update.ssl_server_name
+  - s
+  - title: TLS Server Name
+- - update.enable_post
+  - b
+  - true
+  - title: Enable POST updates
+- - rpc
+  - o
+  - title: RPC settings
+- - rpc.enable
+  - b
+  - true
+  - title: Enable RPC
+- - rpc.max_frame_size
+  - i
+  - 4096
+  - title: Max Frame Size
+- - rpc.max_queue_length
+  - i
+  - 25
+  - title: Max Queue Length
+- - rpc.default_out_channel_idle_close_timeout
+  - i
+  - 10
+  - title: Default idle close timeout for outbound channels
+- - rpc.ws
+  - o
+  - title: RPC over WebSocket settings
+- - rpc.ws.enable
+  - b
+  - true
+  - title: Enable RPC over WebSocket
+- - rpc.ws.server_address
+  - s
+  - ""
+  - title: Cloud server address
+- - rpc.ws.reconnect_interval_min
+  - i
+  - 1
+  - title: Minimal reconnect interval
+- - rpc.ws.reconnect_interval_max
+  - i
+  - 60
+  - title: Maximal reconnect interval
+- - rpc.ws.ssl_server_name
+  - s
+  - title: TLS Server Name
+- - rpc.ws.ssl_ca_file
+  - s
+  - title: TLS CA file
+- - rpc.ws.ssl_client_cert_file
+  - s
+  - title: TLS client cert file
+- - rpc.mqtt
+  - o
+  - title: RPC over MQTT settings
+- - rpc.mqtt.enable
+  - b
+  - true
+  - title: Enable RPC over MQTT
+- - rpc.mqtt.is_trusted
+  - b
+  - true
+  - title: Whether this channel can be used for privileged commands, such as changing
+      configuration
+- - rpc.uart
+  - o
+  - title: RPC-over-UART settings
+- - rpc.uart.uart_no
+  - i
+  - title: UART number (-1 to disable)
+- - rpc.uart.baud_rate
+  - i
+  - 115200
+  - title: Baud rate
+- - rpc.uart.fc_type
+  - i
+  - 2
+  - title: 'Flow control: 0 - none, 1 - CTS/RTS, 2 - XON/XOFF'
+- - rpc.uart.wait_for_start_frame
+  - b
+  - true
+  - title: Wait for an incoming frame before using the channel
+- - i2c.enable
+  - true
+- - i2c.sda_gpio
+  - 23
+- - i2c.scl_gpio
+  - 22
+- - mqtt.server
+  - iot.eclipse.org:1883

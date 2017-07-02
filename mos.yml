@@ -16,6 +16,8 @@ filesystem:
 
 config_schema:
   - ["i2c.enable", true]
+  - ["i2c.sda_gpio", 23]
+  - ["i2c.scl_gpio", 22]
   - ["mqtt.server", "iot.eclipse.org:1883"]
 
 libs:
@@ -34,5 +36,6 @@ libs:
   - origin: https://github.com/mongoose-os-libs/vfs-dev-spi-flash
 
     # libs necessary for the current app
+  - origin: https://github.com/mongoose-os-libs/arduino-adafruit-ssd1306
   - origin: https://github.com/mongoose-os-libs/aws
   - origin: https://github.com/mongoose-os-libs/mjs

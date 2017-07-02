@@ -1,0 +1,956 @@
+Handling lib "http-server"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server"
+Handling lib "atca"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca"
+Handling lib "ota-http-server"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server"
+Handling lib "http-server"...
+Already handled, skipping
+Handling lib "ota-http-client"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client"
+Handling lib "rpc-loopback"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback"
+Handling lib "rpc-common"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common"
+Handling lib "http-server"...
+Already handled, skipping
+Handling lib "rpc-mqtt"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt"
+Handling lib "mqtt"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-service-config"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-service-fs"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-service-gpio"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-service-i2c"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c"
+Handling lib "i2c"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-service-ota"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota"
+Handling lib "ota-http-client"...
+Already handled, skipping
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "rpc-uart"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart"
+Handling lib "rpc-common"...
+Already handled, skipping
+Handling lib "spi"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi"
+Handling lib "vfs-dev-spi-flash"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash"
+Handling lib "spi"...
+Already handled, skipping
+Handling lib "arduino-adafruit-ssd1306"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306"
+Handling lib "arduino-compat"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat"
+Handling lib "arduino-wire"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire"
+Handling lib "i2c"...
+Already handled, skipping
+Handling lib "arduino-compat"...
+Already handled, skipping
+Handling lib "arduino-spi"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi"
+Handling lib "arduino-compat"...
+Already handled, skipping
+Handling lib "spi"...
+Already handled, skipping
+Handling lib "arduino-adafruit-gfx"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx"
+Handling lib "aws"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws"
+Handling lib "mqtt"...
+Already handled, skipping
+Handling lib "mjs"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs"
+Handling lib "atca"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca"
+Handling lib "i2c"...
+Already handled, skipping
+Handling lib "dns-sd"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd"
+Handling lib "http-server"...
+Already handled, skipping
+Handling lib "gcp"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp"
+Handling lib "mqtt"...
+Already handled, skipping
+Handling lib "rpc-service-atca"...
+The --lib flag was not given for it, checking repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca" is updated recently enough, don't touch it
+Prepared local dir: "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca"
+Handling lib "atca"...
+Already handled, skipping
+Handling lib "rpc-common"...
+Already handled, skipping
+The flag --module is not given for the module "mjs", going to use the repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs" is updated recently enough, don't touch it
+The flag --repo is not given, going to use mongoose-os repository
+Repository "/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os" is updated recently enough, don't touch it
+Sources: [/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/esp32/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/esp32/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/common_gpio/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/common_gpio/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/mg_rpc/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/mg_rpc/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/deps_init.c]
+Building...
+Docker arguments: run --rm -i -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/common_gpio:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/common_gpio -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/mjs_fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/mjs_fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/mjs_fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/mjs_fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs/lib:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs/lib -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os/fw/platforms/esp32/mjs_api:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os/fw/platforms/esp32/mjs_api -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/esp32:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/esp32 -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213:/app -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/mg_rpc:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/mg_rpc -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/mjs_fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/mjs_fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/mjs_fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/mjs_fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/mjs_fs:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/mjs_fs -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os:/mongoose-os -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire/src -v /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config/src:/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config/src --user 0:0 docker.cesanta.com/esp32-build:2.0-r9 /bin/bash -c nice make '-j' '16' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp32/Makefile.build' 'MGOS_HAVE_OTA_HTTP_SERVER=1' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'APP_VERSION=1.0' 'BUILD_DIR=build/objs' 'APP_FS_FILES=/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/* /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs/lib/api_*.js /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os/fw/platforms/esp32/mjs_api/api_*.js /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/mjs_fs/* /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/mjs_fs/* /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/mjs_fs/* /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/mjs_fs/* /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/mjs_fs/* /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/fs/*' 'FFI_SYMBOLS=' 'MGOS_HAVE_ARDUINO_SPI=1' 'MGOS_HAVE_AWS=1' 'MGOS_HAVE_SPI=1' 'MGOS_HAVE_VFS_DEV_SPI_FLASH=1' 'MGOS_HAVE_ARDUINO_WIRE=1' 'MGOS_HAVE_RPC_SERVICE_GPIO=1' 'MGOS_HAVE_HTTP_SERVER=1' 'PLATFORM=esp32' 'MGOS_PATH=/mongoose-os' 'MGOS_HAVE_RPC_MQTT=1' 'MGOS_HAVE_ARDUINO_ADAFRUIT_GFX=1' 'MGOS_HAVE_RPC_SERVICE_ATCA=1' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_HAVE_ARDUINO_COMPAT=1' 'MGOS_HAVE_ATCA=1' 'MGOS_ENABLE_UPDATER=1' 'FW_DIR=build/fw' 'MGOS_ENABLE_MDNS=1' 'APP=happyornot' 'APP_CXXFLAGS=-DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_AWS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_ARDUINO_WIRE=1 -DMGOS_HAVE_ATCA=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DF_CPU=160000000 -DMGOS_HAVE_SPI=1 -DMGOS_ENABLE_WEB_CONFIG=0 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_HAVE_ARDUINO_COMPAT=1 -DMGOS_HAVE_GCP=1 -DMGOS_HAVE_OTA_HTTP_CLIENT=1 -DMGOS_HAVE_VFS_DEV_SPI_FLASH=1 -DMGOS_HAVE_ARDUINO_ADAFRUIT_GFX=1 -DMGOS_HAVE_ARDUINO_SPI=1 -DMGOS_HAVE_MJS=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DESP32=1 -DMG_ENABLE_MQTT=1 -DMGOS_HAVE_DNS_SD=1 -DMGOS_HAVE_MQTT=1 -DMGOS_HAVE_RPC_MQTT=1 -DMGOS_HAVE_RPC_SERVICE_OTA=1 -DMGOS_HAVE_OTA_HTTP_SERVER=1 -DMGOS_HAVE_RPC_LOOPBACK=1 -DMGOS_ENABLE_FILE_UPLOAD=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_RPC_SERVICE_I2C=1 -DMGOS_HAVE_RPC_SERVICE_GPIO=1 -DMGOS_ENABLE_TUNNEL=0 -DMGOS_HAVE_I2C=1 -DMGOS_HAVE_HTTP_SERVER=1 -DARDUINO=150 -DMGOS_HAVE_ARDUINO_ADAFRUIT_SSD1306=1 -DMGOS_HAVE_RPC_SERVICE_ATCA=1' 'MGOS_HAVE_RPC_UART=1' 'MGOS_HAVE_DNS_SD=1' 'MGOS_HAVE_MJS=1' 'MGOS_HAVE_RPC_LOOPBACK=1' 'MGOS_HAVE_OTA_HTTP_CLIENT=1' 'APP_CFLAGS=-DMGOS_HAVE_MJS=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_ARDUINO_ADAFRUIT_GFX=1 -DMGOS_HAVE_ARDUINO_SPI=1 -DMGOS_HAVE_DNS_SD=1 -DMGOS_HAVE_MQTT=1 -DESP32=1 -DMG_ENABLE_MQTT=1 -DMGOS_ENABLE_FILE_UPLOAD=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_RPC_MQTT=1 -DMGOS_HAVE_RPC_SERVICE_OTA=1 -DMGOS_HAVE_OTA_HTTP_SERVER=1 -DMGOS_HAVE_RPC_LOOPBACK=1 -DMGOS_ENABLE_TUNNEL=0 -DMGOS_HAVE_I2C=1 -DMGOS_HAVE_RPC_SERVICE_I2C=1 -DMGOS_HAVE_RPC_SERVICE_GPIO=1 -DMGOS_HAVE_ARDUINO_ADAFRUIT_SSD1306=1 -DMGOS_HAVE_RPC_SERVICE_ATCA=1 -DMGOS_HAVE_HTTP_SERVER=1 -DARDUINO=150 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DF_CPU=160000000 -DMGOS_HAVE_SPI=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_AWS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_ARDUINO_WIRE=1 -DMGOS_HAVE_ATCA=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_HAVE_ARDUINO_COMPAT=1 -DMGOS_ENABLE_WEB_CONFIG=0 -DMGOS_HAVE_OTA_HTTP_CLIENT=1 -DMGOS_HAVE_VFS_DEV_SPI_FLASH=1 -DMGOS_HAVE_GCP=1' 'APP_CONF_SCHEMA=/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/mos_conf_schema.yml' 'MGOS_HAVE_ARDUINO_ADAFRUIT_SSD1306=1' 'MGOS_ENABLE_I2C_GPIO=1' 'MGOS_HAVE_GCP=1' 'MGOS_HAVE_I2C=1' 'MGOS_HAVE_MQTT=1' 'GEN_DIR=/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen' 'APP_SOURCES=/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/esp32/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/spi/src/esp32/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-spi/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/common_gpio/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/src/common_gpio/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-wire/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/atca/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/http-server/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/dns-sd/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/gcp/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-client/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/ota-http-server/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/mg_rpc/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/mg_rpc/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-loopback/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-mqtt/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-atca/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-config/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-fs/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-gpio/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-i2c/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-service-ota/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-uart/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/vfs-dev-spi-flash/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/src/*.c /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/src/*.cpp /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/deps_init.c' 'MGOS_ENABLE_SPI_GPIO=0' 'MGOS_HAVE_RPC_SERVICE_I2C=1' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'MGOS_HAVE_RPC_SERVICE_OTA=1' 'FS_STAGING_DIR=build/fs'
+make: Entering directory '/app'
+GENCONFIG
+/opt/cs_mbedtls/component.mk:17: warning: undefined variable 'MGOS_ENABLE_ATCA'
+make[1]: Entering directory '/app/build/objs/cs_mbedtls'
+make[1]: Entering directory '/app/build/objs/spiffs'
+make[1]: Entering directory '/app/build/objs/cryptoauthlib'
+make[1]: Entering directory '/app/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/app/build/objs/vfs'
+make[1]: Entering directory '/app/build/objs/wpa_supplicant'
+make[1]: Entering directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/tcpip_adapter'
+make[1]: Entering directory '/app/build/objs/soc'
+make[1]: Entering directory '/app/build/objs/src'
+make[1]: Entering directory '/app/build/objs/newlib'
+make[1]: Entering directory '/app/build/objs/nvs_flash'
+make[1]: Entering directory '/app/build/objs/micro-ecc'
+make[1]: Entering directory '/app/build/objs/freertos'
+make[1]: Entering directory '/app/build/objs/log'
+make[1]: Entering directory '/app/build/objs/lwip'
+make[1]: Leaving directory '/app/build/objs/vfs'
+make[1]: Leaving directory '/app/build/objs/spiffs'
+make[1]: Leaving directory '/app/build/objs/cryptoauthlib'
+make[1]: Leaving directory '/app/build/objs/cs_mbedtls'
+make[1]: Leaving directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/ethernet'
+make[1]: Entering directory '/app/build/objs/expat'
+make[1]: Leaving directory '/app/build/objs/freertos'
+make[1]: Entering directory '/app/build/objs/esp32'
+make[1]: Entering directory '/app/build/objs/driver'
+make[1]: Leaving directory '/app/build/objs/log'
+make[1]: Leaving directory '/app/build/objs/nvs_flash'
+make[1]: Leaving directory '/app/build/objs/src'
+make[1]: Entering directory '/app/build/objs/bootloader_support'
+make[1]: Leaving directory '/app/build/objs/wpa_supplicant'
+make[1]: Leaving directory '/app/build/objs/soc'
+make[1]: Leaving directory '/app/build/objs/micro-ecc'
+make[1]: Leaving directory '/app/build/objs/xtensa-debug-module'
+make[1]: Leaving directory '/app/build/objs/lwip'
+make[1]: Leaving directory '/app/build/objs/tcpip_adapter'
+make[1]: Entering directory '/app/build/objs/app_update'
+make[1]: Leaving directory '/app/build/objs/ethernet'
+make[1]: Leaving directory '/app/build/objs/newlib'
+make[1]: Leaving directory '/app/build/objs/driver'
+make[1]: Leaving directory '/app/build/objs/esp32'
+make[1]: Leaving directory '/app/build/objs/expat'
+make[1]: Leaving directory '/app/build/objs/bootloader_support'
+make[1]: Leaving directory '/app/build/objs/app_update'
+make[1]: Entering directory '/app/build/objs/bt'
+make[1]: Leaving directory '/app/build/objs/bt'
+Building partitions from /mongoose-os/fw/platforms/esp32/src/partitions_mgos.csv...
+make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/src'
+make[1]: Entering directory '/app/build/objs/app_update'
+CC esp_ota_ops.o
+make[1]: Entering directory '/app/build/objs/bootloader_support'
+make[1]: Entering directory '/app/build/objs/driver'
+CC spi_master.o
+make[1]: Entering directory '/app/build/objs/esp32'
+make[1]: Entering directory '/app/build/objs/ethernet'
+make[1]: Entering directory '/app/build/objs/expat'
+make[1]: Entering directory '/app/build/objs/micro-ecc'
+make[1]: Entering directory '/app/build/objs/newlib'
+CC time.o
+make[1]: Entering directory '/app/build/objs/freertos'
+CC ringbuf.o
+make[1]: Entering directory '/app/build/objs/log'
+CC sigmadelta.o
+CC uart.o
+make[1]: Entering directory '/app/build/objs/lwip'
+make[1]: Entering directory '/app/build/objs/bt'
+CC log.o
+CC src/esp_ota_select.o
+CC micro-ecc/uECC.o
+CC src/bootloader_flash.o
+CC library/xmltok_ns.o
+CC emac_dev.o
+CC panic.o
+CC core_dump.o
+CC library/xmltok.o
+CC src/efuse.o
+CC reent_init.o
+CC i2c.o
+CC src/secure_boot.o
+AR liblog.a
+CC syscalls.o
+AR libapp_update.a
+CC clk.o
+make[1]: Leaving directory '/app/build/objs/log'
+make[1]: Leaving directory '/app/build/objs/app_update'
+make[1]: Entering directory '/app/build/objs/nvs_flash'
+CC emac_main.o
+CXX src/nvs_types.o
+CXX src/nvs_item_hash_list.o
+CC api/pppapi.o
+CC heap_regions_debug.o
+CC syscall_table.o
+CC locks.o
+CC task_wdt.o
+CC src/secure_boot_signatures.o
+make[2]: Entering directory '/app/build/objs/bootloader/main'
+CC api/netbuf.o
+make[2]: Leaving directory '/app/build/objs/bootloader/main'
+make[2]: Entering directory '/app/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/app/build/objs/bootloader/soc'
+CC xtensa_intr.o
+make[2]: Leaving directory '/app/build/objs/bootloader/micro-ecc'
+CXX src/nvs_pagemanager.o
+AR libnewlib.a
+make[2]: Leaving directory '/app/build/objs/bootloader/soc'
+make[2]: Entering directory '/app/build/objs/bootloader/spi_flash'
+CC periph_ctrl.o
+make[1]: Leaving directory '/app/build/objs/newlib'
+CC system_api.o
+make[2]: Leaving directory '/app/build/objs/bootloader/spi_flash'
+CC src/flash_partitions.o
+make[2]: Entering directory '/app/build/objs/bootloader/log'
+CC src/esp_image_format.o
+make[2]: Leaving directory '/app/build/objs/bootloader/log'
+make[2]: Entering directory '/app/build/objs/bootloader/bootloader_support'
+CC queue.o
+CC api/api_lib.o
+CC src/flash_encrypt.o
+make[2]: Leaving directory '/app/build/objs/bootloader/bootloader_support'
+CC ledc.o
+CC eth_phy/phy_common.o
+CC bt.o
+CC bluedroid/bta/dm/bta_dm_api.o
+CC lib_printf.o
+CC eth_phy/phy_lan8720.o
+CC src/bootloader_random.o
+CC spi_common.o
+CC restore.o
+CC int_wdt.o
+CC eth_phy/phy_tlk110.o
+make[2]: Entering directory '/app/build/objs/bootloader/bootloader_support'
+CC phy_init.o
+CC src/esp_ota_select.o
+CC api/netifapi.o
+CC croutine.o
+AR libmicro-ecc.a
+CC src/bootloader_flash.o
+AR libethernet.a
+make[1]: Leaving directory '/app/build/objs/micro-ecc'
+CC deep_sleep.o
+make[1]: Leaving directory '/app/build/objs/ethernet'
+CC api/tcpip.o
+CC src/efuse.o
+make[1]: Entering directory '/app/build/objs/soc'
+make[1]: Entering directory '/app/build/objs/spi_flash'
+CC flash_mmap.o
+AR libbootloader_support.a
+CC esp32/rtc_pm.o
+make[1]: Leaving directory '/app/build/objs/bootloader_support'
+CC cpu_start.o
+CC src/secure_boot.o
+CC src/secure_boot_signatures.o
+CC list.o
+CC xtensa_init.o
+CC esp32/cpu_util.o
+CC port.o
+CC esp32/brownout.o
+CC src/flash_partitions.o
+CC heap_regions.o
+CC gpio.o
+CXX src/nvs_api.o
+CC event_groups.o
+CC api/netdb.o
+CC pcnt.o
+CC src/esp_image_format.o
+CC esp32/rtc_time.o
+CC src/flash_encrypt.o
+CC tasks.o
+CC partition.o
+CC heap_alloc_caps.o
+CC freertos_hooks.o
+CC esp32/rtc_init.o
+CC gdbstub.o
+CC crosscore_int.o
+CC cache_err_int.o
+CC bluedroid/bta/dm/bta_dm_sco.o
+CC api/err.o
+CC src/bootloader_random.o
+CC ipc.o
+CC intr_alloc.o
+CC esp32/rtc_sleep.o
+CC spi_flash_rom_patch.o
+CC cache_utils.o
+CC bluedroid/bta/dm/bta_dm_ci.o
+CC api/api_msg.o
+CC esp32/rtc_clk.o
+AR libbootloader_support.a
+make[2]: Leaving directory '/app/build/objs/bootloader/bootloader_support'
+CC rmt.o
+make[2]: Entering directory '/app/build/objs/bootloader/spi_flash'
+CC spi_flash_rom_patch.o
+make[2]: Entering directory '/app/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/app/build/objs/bootloader/log'
+CC log.o
+CC mcpwm.o
+CC sdmmc_transaction.o
+CC micro-ecc/uECC.o
+make[2]: Entering directory '/app/build/objs/bootloader/soc'
+CC esp32/cpu_util.o
+CC esp32/rtc_pm.o
+AR liblog.a
+CC bluedroid/bta/dm/bta_dm_act.o
+CC bluedroid/bta/dm/bta_dm_pm.o
+make[2]: Leaving directory '/app/build/objs/bootloader/log'
+CC bluedroid/bta/dm/bta_dm_main.o
+CC esp32/brownout.o
+CC app_trace.o
+AR libsoc.a
+CC esp32/rtc_time.o
+CC flash_ops.o
+make[1]: Leaving directory '/app/build/objs/soc'
+CC esp32/rtc_init.o
+CC bluedroid/bta/dm/bta_dm_cfg.o
+CC event_loop.o
+CC esp32/rtc_sleep.o
+AR libspi_flash.a
+CC esp32/rtc_clk.o
+make[2]: Leaving directory '/app/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/app/build/objs/bootloader/main'
+CC bootloader_start.o
+CC bluedroid/bta/gatt/bta_gatts_main.o
+CC api/sockets.o
+CC bluedroid/bta/gatt/bta_gattc_api.o
+CC hw_random.o
+CC dport_access.o
+CC timers.o
+AR libspi_flash.a
+CC bluedroid/bta/gatt/bta_gattc_cache.o
+CC event_default_handlers.o
+CC apps/dhcpserver.o
+make[1]: Leaving directory '/app/build/objs/spi_flash'
+make[1]: Entering directory '/app/build/objs/tcpip_adapter'
+CC hwcrypto/sha.o
+CC tcpip_adapter_lwip.o
+CC spi_slave.o
+AR libsoc.a
+make[2]: Leaving directory '/app/build/objs/bootloader/soc'
+CC i2s.o
+CC FreeRTOS-openocd.o
+CC hwcrypto/aes.o
+CC flash_qio_mode.o
+CC sdmmc_host.o
+CC timer.o
+CC xtensa_overlay_os_hook.o
+AS portasm.o
+AS xtensa_context.o
+AR libmain.a
+AS xtensa_vectors.o
+make[1]: Entering directory '/app/build/objs/vfs'
+make[2]: Leaving directory '/app/build/objs/bootloader/main'
+CC vfs_uart.o
+CXX src/nvs_page.o
+CC library/xmlparse.o
+AS xtensa_intr_asm.o
+CXX src/nvs_storage.o
+AR libesp32.a
+AR libmicro-ecc.a
+make[2]: Leaving directory '/app/build/objs/bootloader/micro-ecc'
+make[1]: Leaving directory '/app/build/objs/esp32'
+LD bootloader.elf
+make[1]: Entering directory '/app/build/objs/wpa_supplicant'
+CC src/crypto/aes-internal-enc.o
+CC src/crypto/sha256-internal.o
+AR libfreertos.a
+CC rtc_module.o
+CC vfs.o
+AR libtcpip_adapter.a
+make[1]: Leaving directory '/app/build/objs/freertos'
+make[1]: Entering directory '/app/build/objs/xtensa-debug-module'
+CC eri.o
+CC trax.o
+CC bluedroid/bta/gatt/bta_gattc_main.o
+make[1]: Leaving directory '/app/build/objs/tcpip_adapter'
+CC bluedroid/bta/gatt/bta_gatts_api.o
+make[1]: Entering directory '/app/build/objs/cryptoauthlib'
+AR libxtensa-debug-module.a
+CC lib/atca_command.o
+make[1]: Leaving directory '/app/build/objs/xtensa-debug-module'
+esptool.py v2.0.1
+make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/src'
+make[1]: Entering directory '/app/build/objs/spiffs'
+CC spiffs_cache.o
+make[1]: Entering directory '/app/build/objs/src'
+  GEN   /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/sys_ro_vars.c
+  GEN   /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/sys_config.c
+CC src/crypto/md5-internal.o
+CC spiffs_gc.o
+CC bluedroid/bta/gatt/bta_gattc_utils.o
+CC bluedroid/bta/gatt/bta_gattc_act.o
+AR libvfs.a
+make[1]: Leaving directory '/app/build/objs/vfs'
+CC src/crypto/aes-internal.o
+CC lib/atca_iface.o
+CC src/crypto/sha1.o
+  MKDIR /app/build/objs/fw_temp
+CC src/crypto/aes-internal-dec.o
+CC src/crypto/aes-unwrap.o
+CC lib/atca_cfgs.o
+CC bluedroid/bta/gatt/bta_gattc_ci.o
+CC src/crypto/crypto_internal-rsa.o
+CC lib/atca_device.o
+  MKDIR /app/build/fw
+CC apps/sntp/sntp.o
+CC lib/basic/atca_helpers.o
+CC lib/basic/atca_basic.o
+AR libdriver.a
+CC src/crypto/des-internal.o
+AS esp32_nsleep100.o
+CC src/crypto/dh_groups.o
+make[1]: Leaving directory '/app/build/objs/driver'
+CC src/crypto/ms_funcs.o
+CC spiffs_nucleus.o
+CC spiffs_check.o
+CC glcdfont.o
+CC bluedroid/bta/gatt/bta_gatts_act.o
+CC mgos_arduino_adafruit_gfx_c.o
+CXX Adafruit_GFX.o
+CC src/crypto/aes-wrap.o
+CXX WString.o
+CC apps/ping/ping.o
+CC lib/host/atca_host.o
+CC src/crypto/sha1-internal.o
+In file included from /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/WString.h:30:0,
+                 from /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/Print.h:27,
+                 from /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.h:6,
+                 from /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:34:
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp: In member function 'void Adafruit_GFX::drawChar(int16_t, int16_t, unsigned char, uint16_t, uint16_t, uint8_t)':
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/pgmspace.h:46:61: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define pgm_read_dword(addr)  (*(const unsigned long *)(addr))
+                                                             ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:60:42: note: in expansion of macro 'pgm_read_dword'
+  #define pgm_read_pointer(addr) ((void *)pgm_read_dword(addr))
+                                          ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:753:43: note: in expansion of macro 'pgm_read_pointer'
+         GFXglyph *glyph  = &(((GFXglyph *)pgm_read_pointer(&gfxFont->glyph))[c]);
+                                           ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/pgmspace.h:46:61: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define pgm_read_dword(addr)  (*(const unsigned long *)(addr))
+                                                             ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:60:42: note: in expansion of macro 'pgm_read_dword'
+  #define pgm_read_pointer(addr) ((void *)pgm_read_dword(addr))
+                                          ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:754:39: note: in expansion of macro 'pgm_read_pointer'
+         uint8_t  *bitmap = (uint8_t *)pgm_read_pointer(&gfxFont->bitmap);
+                                       ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp: In member function 'virtual size_t Adafruit_GFX::write(uint8_t)':
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/pgmspace.h:46:61: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define pgm_read_dword(addr)  (*(const unsigned long *)(addr))
+                                                             ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:60:42: note: in expansion of macro 'pgm_read_dword'
+  #define pgm_read_pointer(addr) ((void *)pgm_read_dword(addr))
+                                          ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:837:50: note: in expansion of macro 'pgm_read_pointer'
+                 GFXglyph *glyph = &(((GFXglyph *)pgm_read_pointer(
+                                                  ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp: In member function 'void Adafruit_GFX::charBounds(char, int16_t*, int16_t*, int16_t*, int16_t*, int16_t*, int16_t*)':
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-compat/src/pgmspace.h:46:61: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define pgm_read_dword(addr)  (*(const unsigned long *)(addr))
+                                                             ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:60:42: note: in expansion of macro 'pgm_read_dword'
+  #define pgm_read_pointer(addr) ((void *)pgm_read_dword(addr))
+                                          ^
+/tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-gfx/src/Adafruit_GFX.cpp:952:50: note: in expansion of macro 'pgm_read_pointer'
+                 GFXglyph *glyph = &(((GFXglyph *)pgm_read_pointer(
+                                                  ^
+CC apps/ping/esp_ping.o
+CC library/xmlrole.o
+CXX Print.o
+CC src/crypto/md4-internal.o
+CC core/stats.o
+CC core/mem.o
+CC core/inet_chksum.o
+CC bluedroid/bta/gatt/bta_gatts_utils.o
+CC bluedroid/bta/hh/bta_hh_api.o
+CC core/init.o
+CC bluedroid/bta/hh/bta_hh_utils.o
+CC core/memp.o
+AR libnvs_flash.a
+make[1]: Leaving directory '/app/build/objs/nvs_flash'
+CC core/tcp_in.o
+CC bluedroid/bta/hh/bta_hh_le.o
+CC src/crypto/dh_group5.o
+CC src/crypto/crypto_internal.o
+CC spiffs_hydrogen.o
+CC bluedroid/bta/hh/bta_hh_act.o
+CC core/dns.o
+CXX mgos_arduino.o
+CC bluedroid/bta/hh/bta_hh_main.o
+CC core/ip.o
+CC src/crypto/sha256.o
+CC core/raw.o
+CC src/crypto/md5.o
+CC src/crypto/aes-cbc.o
+CC bluedroid/bta/hh/bta_hh_cfg.o
+CC library/xmltok_impl.o
+CC port/minicheck.o
+CC port/expat_element.o
+CC core/tcp.o
+CC src/crypto/sha1-pbkdf2.o
+CC src/crypto/rc4.o
+CC src/crypto/crypto_internal-modexp.o
+CC src/crypto/crypto_internal-cipher.o
+CC src/crypto/bignum.o
+CC bluedroid/bta/sdp/bta_sdp.o
+AR libcryptoauthlib.a
+CC core/def.o
+make[1]: Leaving directory '/app/build/objs/cryptoauthlib'
+CC core/netif.o
+CC core/sys.o
+CC port/chardata.o
+CC port/os_xtensa.o
+CC core/timers.o
+CC core/pbuf.o
+CC spiffs_vfs.o
+CC bluedroid/bta/sdp/bta_sdp_act.o
+CC bluedroid/bta/sdp/bta_sdp_cfg.o
+CC core/udp.o
+CC core/tcp_out.o
+CC core/ipv4/ip_frag.o
+CC core/ipv4/dhcp.o
+AR libspiffs.a
+CC core/ipv4/ip4_addr.o
+make[1]: Leaving directory '/app/build/objs/spiffs'
+CC esp32_spi_master.o
+CC mgos_spi.o
+CC bluedroid/bta/sdp/bta_sdp_api.o
+CC mgos_arduino_spi_c.o
+CC bluedroid/bta/av/bta_av_api.o
+CC bluedroid/bta/av/bta_av_ssm.o
+CC bluedroid/bta/av/bta_av_cfg.o
+CXX mgos_arduino_spi.o
+CC bluedroid/bta/av/bta_av_ci.o
+CC mgos_i2c.o
+CC core/ipv4/igmp.o
+CC core/ipv4/ip4.o
+CC mgos_i2c_gpio.o
+CC core/ipv4/autoip.o
+CC bluedroid/bta/av/bta_av_act.o
+CC bluedroid/bta/av/bta_av_main.o
+CC core/ipv6/ip6_frag.o
+CC core/ipv4/icmp.o
+CC bluedroid/bta/av/bta_av_sbc.o
+CC core/ipv6/dhcp6.o
+CC core/ipv6/inet6.o
+CC mgos_arduino_wire_c.o
+CC bluedroid/bta/ar/bta_ar.o
+CC bluedroid/bta/av/bta_av_aact.o
+CXX mgos_arduino_wire.o
+CC bluedroid/bta/sys/bta_sys_main.o
+CC bluedroid/bta/sys/utl.o
+CC mgos_arduino_adafruit_ssd1306_c.o
+CC bluedroid/bta/sys/bta_sys_conn.o
+CC bluedroid/btcore/bdaddr.o
+CC bluedroid/btif/bta_gattc_co.o
+CC bluedroid/btif/bta_dm_co.o
+CC core/ipv6/ip6_addr.o
+CC core/ipv6/ip6.o
+CXX mgos_arduino_ssd1306.o
+CC bluedroid/btif/bta_gatts_co.o
+CC bluedroid/device/interop.o
+AR libexpat.a
+CC bluedroid/device/controller.o
+CC core/ipv6/nd6.o
+CC core/ipv6/mld6.o
+CC bluedroid/gki/gki_ulinux.o
+AR libwpa_supplicant.a
+CXX Adafruit_SSD1306.o
+CC bluedroid/gki/gki_buffer.o
+make[1]: Leaving directory '/app/build/objs/expat'
+make[1]: Leaving directory '/app/build/objs/wpa_supplicant'
+CC bluedroid/hci/buffer_allocator.o
+CC bluedroid/hci/hci_hal_h4.o
+CC core/ipv6/ethip6.o
+CC bluedroid/hci/hci_packet_parser.o
+CC bluedroid/hci/packet_fragmenter.o
+CC bluedroid/hci/hci_layer.o
+CC mgos_mqtt.o
+CC mgos_atca.o
+CC bluedroid/hci/hci_packet_factory.o
+CC mgos_aws_shadow.o
+CC bluedroid/main/bte_main.o
+CC bluedroid/main/bte_init.o
+CC bluedroid/osi/future.o
+CC bluedroid/osi/hash_map.o
+CC core/ipv6/icmp6.o
+CC mgos_http_server.o
+CC bluedroid/osi/fixed_queue.o
+CC bluedroid/osi/config.o
+CC netif/slipif.o
+CC bluedroid/osi/list.o
+CC netif/etharp.o
+CC netif/ethernet.o
+CC mgos_dns_sd.o
+CC bluedroid/osi/hash_functions.o
+CC bluedroid/osi/alarm.o
+CC netif/lowpan6.o
+CC mgos_gcp.o
+CC bluedroid/osi/buffer.o
+CC mos_mjs.o
+CC mjs.o
+CC bluedroid/osi/osi_arch.o
+CC mgos_ota_http_client.o
+CC bluedroid/osi/allocator.o
+CC mgos_ota_http_server.o
+CC mg_rpc_channel_http.o
+CC netif/ethernetif.o
+CC mg_rpc.o
+CC bluedroid/external/sbc/decoder/srce/bitstream-decode.o
+CC mg_rpc_channel_tcp_common.o
+CC bluedroid/external/sbc/decoder/srce/synthesis-dct8.o
+CC port/freertos/sys_arch.o
+CC mg_rpc_channel_ws.o
+CC bluedroid/external/sbc/decoder/srce/synthesis-sbc.o
+CC bluedroid/external/sbc/decoder/srce/decoder-oina.o
+CC bluedroid/external/sbc/decoder/srce/bitalloc.o
+CC bluedroid/external/sbc/decoder/srce/framing.o
+CC bluedroid/external/sbc/decoder/srce/dequant.o
+CC mgos_rpc.o
+CC bluedroid/external/sbc/decoder/srce/alloc.o
+CC bluedroid/external/sbc/decoder/srce/decoder-sbc.o
+CC bluedroid/external/sbc/decoder/srce/decoder-private.o
+CC port/netif/wlanif.o
+CC bluedroid/external/sbc/decoder/srce/synthesis-8-generated.o
+CC mg_rpc_channel_loopback.o
+CC mgos_rpc_channel_mqtt.o
+CC bluedroid/external/sbc/decoder/srce/framing-sbc.o
+CC mgos_atca_service.o
+CC port/netif/ethernetif.o
+CC mgos_service_config.o
+CC bluedroid/external/sbc/decoder/srce/oi_codec_version.o
+CC bluedroid/btc/core/btc_task.o
+CC bluedroid/external/sbc/decoder/srce/bitalloc-sbc.o
+CC bluedroid/btc/core/btc_main.o
+CC bluedroid/btc/core/btc_config.o
+CC bluedroid/btc/core/btc_util.o
+CC port/debug/lwip_debug.o
+CC bluedroid/btc/core/btc_storage.o
+CC bluedroid/btc/core/btc_ble_storage.o
+CC bluedroid/btc/core/btc_profile_queue.o
+CC mgos_service_filesystem.o
+CC mgos_gpio_service.o
+CC mgos_i2c_service.o
+CC bluedroid/btc/core/btc_alarm.o
+CC mgos_rpc_service_ota.o
+CC mgos_rpc_channel_uart.o
+CC mgos_vfs_dev_spi_flash.o
+CC main.o
+CC bluedroid/btc/core/btc_manage.o
+CC deps_init.o
+AR liblwip.a
+CC mgos_debug.o
+CC bluedroid/btc/core/btc_sec.o
+make[1]: Leaving directory '/app/build/objs/lwip'
+CC bluedroid/btc/core/btc_sm.o
+CC bluedroid/btc/core/btc_dev.o
+CC bluedroid/btc/core/btc_dm.o
+CC bluedroid/btc/profile/esp/blufi/blufi_prf.o
+CC mgos_bitbang.o
+CC bluedroid/btc/profile/esp/blufi/blufi_protocol.o
+CC bluedroid/btc/profile/std/gap/btc_gap_bt.o
+CC bluedroid/btc/profile/std/gap/btc_gap_ble.o
+CC mgos_mdns.o
+CC bluedroid/btc/profile/std/gatt/btc_gatts.o
+CC bluedroid/btc/profile/std/gatt/btc_gatt_util.o
+CC mgos_updater_common.o
+CC mgos_wifi.o
+CC mgos_sntp.o
+CC mgos_config.o
+CC mgos_gpio.o
+CC bluedroid/btc/profile/std/gatt/btc_gattc.o
+CC mgos_hooks.o
+CC bluedroid/btc/profile/std/a2dp/bta_av_co.o
+CC mgos_init.o
+CC mgos_mongoose.o
+CC mgos_sys_config.o
+CC bluedroid/btc/profile/std/a2dp/btc_media_task.o
+CC /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/sys_config.o
+CC bluedroid/btc/profile/std/a2dp/btc_avk.o
+CC sys_ro_vars.o
+CC bluedroid/btc/profile/std/avrc/btc_avrc.o
+CC mgos_timers_mongoose.o
+CC mgos_uart.o
+CC bluedroid/stack/btm/btm_ble_batchscan.o
+CC mgos_utils.o
+CC mgos_dlsym.o
+CC mgos_vfs.o
+CC bluedroid/stack/btm/btm_sec.o
+CC bluedroid/stack/btm/btm_ble_cont_energy.o
+CC bluedroid/stack/btm/btm_ble.o
+CC mgos_vfs_dev.o
+CC bluedroid/stack/btm/btm_pm.o
+CC mgos_vfs_fs_spiffs.o
+CC bluedroid/stack/btm/btm_ble_adv_filter.o
+CC bluedroid/stack/btm/btm_inq.o
+CC esp_mmap.o
+CC bluedroid/stack/btm/btm_main.o
+CC esp32_adc.o
+CC esp32_crypto.o
+CC esp32_debug.o
+CC bluedroid/stack/btm/btm_dev.o
+CC bluedroid/stack/btm/btm_ble_privacy.o
+CC esp32_exc.o
+CC esp32_fs.o
+CC bluedroid/stack/btm/btm_acl.o
+CC esp32_fs_crypt.o
+CC esp32_vfs_dev_partition.o
+CC esp32_gpio.o
+CC esp32_hal.o
+CC esp32_main.o
+CC bluedroid/stack/btm/btm_ble_bgconn.o
+CC esp32_mdns.o
+CC bluedroid/stack/btm/btm_ble_gap.o
+CC esp32_pwm.o
+CC esp32_uart.o
+CC bluedroid/stack/btm/btm_ble_multi_adv.o
+CC bluedroid/stack/btm/btm_ble_addr.o
+CC esp32_updater.o
+CC bluedroid/stack/btm/btm_devctl.o
+CC esp32_wifi.o
+CC bluedroid/stack/btm/btm_sco.o
+CC bluedroid/stack/btu/btu_hcif.o
+CC cs_crc32.o
+CC cs_dbg.o
+CC bluedroid/stack/btu/btu_task.o
+CC bluedroid/stack/btu/btu_init.o
+CC cs_file.o
+CC cs_rbuf.o
+CC bluedroid/stack/gap/gap_ble.o
+CC json_utils.o
+CC bluedroid/stack/gap/gap_conn.o
+CC frozen.o
+CC bluedroid/stack/gap/gap_api.o
+CC bluedroid/stack/gap/gap_utils.o
+CC bluedroid/stack/gatt/gatt_db.o
+CC mongoose.o
+CC bluedroid/stack/gatt/gatt_cl.o
+CC bluedroid/stack/gatt/gatt_attr.o
+CC bluedroid/stack/gatt/gatt_main.o
+CC bluedroid/stack/gatt/gatt_sr.o
+CC bluedroid/stack/gatt/att_protocol.o
+CC bluedroid/stack/gatt/gatt_auth.o
+CC bluedroid/stack/gatt/gatt_api.o
+CC bluedroid/stack/gatt/gatt_utils.o
+CC bluedroid/stack/hcic/hciblecmds.o
+CC bluedroid/stack/hcic/hcicmds.o
+CC bluedroid/stack/l2cap/l2c_main.o
+CC bluedroid/stack/l2cap/l2c_csm.o
+CC bluedroid/stack/l2cap/l2c_ucd.o
+CC bluedroid/stack/l2cap/l2cap_client.o
+CC bluedroid/stack/l2cap/l2c_utils.o
+CC bluedroid/stack/l2cap/l2c_fcr.o
+CC bluedroid/stack/l2cap/l2c_link.o
+CC bluedroid/stack/l2cap/l2c_ble.o
+CC bluedroid/stack/l2cap/l2c_api.o
+CC bluedroid/stack/sdp/sdp_utils.o
+CC bluedroid/stack/sdp/sdp_db.o
+CC bluedroid/stack/sdp/sdp_discovery.o
+CC bluedroid/stack/sdp/sdp_main.o
+CC bluedroid/stack/sdp/sdp_server.o
+CC bluedroid/stack/sdp/sdp_api.o
+CC bluedroid/stack/smp/p_256_curvepara.o
+CC bluedroid/stack/smp/smp_api.o
+CC bluedroid/stack/smp/smp_utils.o
+CC bluedroid/stack/smp/smp_act.o
+CC bluedroid/stack/smp/p_256_ecc_pp.o
+CC bluedroid/stack/smp/smp_cmac.o
+CC bluedroid/stack/smp/smp_keys.o
+CC bluedroid/stack/smp/smp_br_main.o
+CC bluedroid/stack/smp/aes.o
+CC bluedroid/stack/smp/smp_main.o
+CC bluedroid/stack/smp/smp_l2c.o
+CC bluedroid/stack/smp/p_256_multprecision.o
+CC bluedroid/stack/avct/avct_lcb.o
+CC bluedroid/stack/avct/avct_lcb_act.o
+CC bluedroid/stack/avct/avct_l2c.o
+CC bluedroid/stack/avct/avct_api.o
+CC bluedroid/stack/avct/avct_ccb.o
+CC bluedroid/stack/avrc/avrc_pars_ct.o
+CC bluedroid/stack/avrc/avrc_opt.o
+CC bluedroid/stack/avrc/avrc_bld_ct.o
+CC bluedroid/stack/avrc/avrc_pars_tg.o
+CC bluedroid/stack/avrc/avrc_bld_tg.o
+CC bluedroid/stack/avrc/avrc_api.o
+CC bluedroid/stack/avrc/avrc_utils.o
+CC bluedroid/stack/avrc/avrc_sdp.o
+CC bluedroid/stack/avdt/avdt_l2c.o
+CC bluedroid/stack/avdt/avdt_api.o
+CC bluedroid/stack/avdt/avdt_ccb.o
+CC bluedroid/stack/avdt/avdt_scb_act.o
+CC bluedroid/stack/avdt/avdt_scb.o
+CC bluedroid/stack/avdt/avdt_msg.o
+CC bluedroid/stack/avdt/avdt_ccb_act.o
+CC bluedroid/stack/avdt/avdt_ad.o
+CC bluedroid/stack/a2dp/a2d_sbc.o
+CC bluedroid/stack/a2dp/a2d_api.o
+CC bluedroid/utils/bt_utils.o
+CC bluedroid/api/esp_avrc_api.o
+CC bluedroid/api/esp_bt_main.o
+CC bluedroid/api/esp_gap_bt_api.o
+CC bluedroid/api/esp_bt_device.o
+CC bluedroid/api/esp_a2dp_api.o
+CC bluedroid/api/esp_gattc_api.o
+CC bluedroid/api/esp_blufi_api.o
+CC bluedroid/api/esp_gap_ble_api.o
+CC bluedroid/api/esp_gatts_api.o
+AR libbt.a
+make[1]: Leaving directory '/app/build/objs/bt'
+  GEN   /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/build_info.c
+  GEN /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/symbols_dump.txt
+  GEN   /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/mg_build_info.c
+  GEN   /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/ffi_exports.c
+CC build_info.o
+CC /app/build/objs/ffi_exports.o
+CC mg_build_info.o
+AR libsrc.a
+make[1]: Leaving directory '/app/build/objs/src'
+LD happyornot.elf
+esptool.py v2.0.1
+  Generating breakdown
+  CP    /mongoose-os/fw/skeleton/fs/ca.pem -> build/fs
+  CP    /mongoose-os/fw/skeleton/fs/index.html -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_adc.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_sys.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_http.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/init.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_timer.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_bitbang.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_grove.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_net.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_log.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_config.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_neopixel.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_uart.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_gpio.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mjs/fs/api_pwm.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs/lib/api_file.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs/lib/api_dataview.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mjs/mjs/lib/api_math.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os/fw/platforms/esp32/mjs_api/api_esp32.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/modules/mongoose-os/fw/platforms/esp32/mjs_api/api_arch_uart.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/i2c/mjs_fs/api_i2c.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/arduino-adafruit-ssd1306/mjs_fs/api_arduino_ssd1306.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/mqtt/mjs_fs/api_mqtt.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/aws/mjs_fs/api_aws.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/libs/rpc-common/mjs_fs/api_rpc.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/fs/init.js -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/conf0.json -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/sys_config_schema.json -> build/fs
+  CP    /tmp/fwbuild-volumes/users/test/happyornot/build_requests/build_req_236963213/build/gen/sys_ro_vars_schema.json -> build/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 build/fs -> /app/build/objs/fw_temp/fs.img
+     Adding sys_ro_vars_schema.json: 332
+     Adding sys_config_schema.json: 9568
+     Adding conf0.json: 3397
+     Adding api_rpc.js: 2239
+     Adding api_aws.js: 3422
+     Adding api_mqtt.js: 2199
+     Adding api_arduino_ssd1306.js: 8076
+     Adding api_i2c.js: 2580
+     Adding api_arch_uart.js: 1206
+     Adding api_esp32.js: 279
+     Adding api_math.js: 549
+     Adding api_dataview.js: 3837
+     Adding api_file.js: 1954
+     Adding api_pwm.js: 752
+     Adding api_gpio.js: 2731
+     Adding api_uart.js: 5471
+     Adding api_neopixel.js: 2191
+     Adding api_config.js: 1519
+     Adding api_log.js: 1862
+     Adding api_net.js: 5022
+     Adding api_grove.js: 1316
+     Adding api_bitbang.js: 815
+     Adding api_timer.js: 1330
+     Adding init.js: 4331
+     Adding api_http.js: 3770
+     Adding api_sys.js: 1017
+     Adding api_adc.js: 286
+     Adding index.html: 825
+     Adding ca.pem: 7845
+     Image stats: size=262144, space: total=233681, used=92368, free=141313
+  GEN    /app/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/happyornot-esp32-last.zip
+     Adding /app/build/objs/fw_temp/bootloader.bin
+     Adding /app/build/objs/fw_temp/fs.img
+     Adding /app/build/objs/fw_temp/happyornot.bin
+     Adding /app/build/objs/fw_temp/partitions_mgos.bin
+  Built happyornot/esp32 version 1.0 (20170701-160833/???)
+To flash all build output, run 'make flash' or:
+python /opt/Espressif/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1500000 --before default_reset --after hard_reset write_flash -z --flash_mode qio --flash_freq 40m --flash_size detect 0x1000 /app/build/objs/bootloader/bootloader.bin 0x10000 /app/build/objs/happyornot.bin 0x8000 /app/build/objs/partitions_mgos.bin
+make: Leaving directory '/app'
+Success, built happyornot/esp32 version 1.0 (20170701-160833/???).
+Firmware saved to build/fw.zip
