@@ -109,26 +109,6 @@ AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
 }, null);
 
 /* ###############
-   Handle Results form other devices
-   ############### */
-
-MQTT.sub('/happyornot/survey/' + s.title, function(conn, topic, msgTxt) {
-  // print('Topic:', topic, 'message:', JSON.parse(msgTxt));
-  let msg = JSON.parse(msgTxt);
-  if (msg.device !== id) {
-    print("Remote Update from device ", msg.device, msgTxt);
-    for(let i=0;i<hwConfig.nOfButtons;i++) {
-      if (msg.name === s.button[i].name) {
-        s.button[i].count = s.button[i].count + 1;
-      }
-    }
-    updateDisplay();
-    AWS.Shadow.update(0, {desired: s});
-  }
-}, null);
-
-
-/* ###############
    Handle Button Press
    ############### */
 
