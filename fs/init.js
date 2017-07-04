@@ -53,82 +53,6 @@ strip.clear();
 updateLedState();
 
 /* ###############
-   Handle Display
-   ############### */
-
-// Initialize the display.
-let d = Adafruit_SSD1306.create_i2c(4 /* RST GPIO */, Adafruit_SSD1306.RES_128_64);
-d.begin(Adafruit_SSD1306.SWITCHCAPVCC, 0x3C, true /* reset */);
-// d.display(); Ohne diese Zeile wird die Splashscreen nicht angezeigt.
-
-let updateDisplay = function() {
-
-  let max = 1;
-  for(let i=0;i<hwConfig.nOfButtons;i++) {
-    if (max < s.button[i].count) {
-      max = s.button[i].count;
-    }
-  }
-  
-  d.clearDisplay();
-  d.setTextColor(Adafruit_SSD1306.INVERSE);
-  d.setTextSize(1);
-  
-  let w = Math.floor((d.width() - hwConfig.nOfButtons)/hwConfig.nOfButtons);
-  let h = 0;
-  for(let i=0;i<hwConfig.nOfButtons;i++) {
-    h = Math.max(1, Math.ceil(s.button[i].count / max * d.height()));
-    // print("Draw:", i*w, h, max);
-    d.fillRoundRect(i * w, d.height() - h, w - 1, h, 3, Adafruit_SSD1306.WHITE);
-    d.setCursor(i*w + w * 0.35, d.height() - 11 );
-    d.write(JSON.stringify(s.button[i].count));
-  }
-  
-  d.display();
-};
-
-updateDisplay(); // necessary to show start values
-
-/* ###############
-   Handle AWS Shadows
-   ############### */
-
-AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
-  if (event === AWS.Shadow.CONNECTED) {
-    AWS.Shadow.update(0, {reported: s});
-    // print('Reported: ',JSON.stringify(reported));
-  } else if (event === AWS.Shadow.UPDATE_DELTA) {
-    for (let key in s) {
-      if (desired[key] !== undefined) s[key] = desired[key];
-    }
-    // print('Desired: ',JSON.stringify(desired));
-    AWS.Shadow.update(0, {reported: s});
-  }
-  updateLedState();
-  updateDisplay();
-}, null);
-
-/* ###############
-   Handle Results form other devices
-   ############### */
-
-MQTT.sub('/happyornot/survey/' + s.title, function(conn, topic, msgTxt) {
-  // print('Topic:', topic, 'message:', JSON.parse(msgTxt));
-  let msg = JSON.parse(msgTxt);
-  if (msg.device !== id) {
-    print("Remote Update from device ", msg.device, msgTxt);
-    for(let i=0;i<hwConfig.nOfButtons;i++) {
-      if (msg.name === s.button[i].name) {
-        s.button[i].count = s.button[i].count + 1;
-      }
-    }
-    updateDisplay();
-    AWS.Shadow.update(0, {desired: s});
-  }
-}, null);
-
-
-/* ###############
    Handle Button Press
    ############### */
 
@@ -136,30 +60,8 @@ for(let i=0;i<hwConfig.nOfButtons;i++) {
   GPIO.set_mode(hwConfig.buttonPin[i],GPIO.MODE_INPUT);
 }
 
-let lastButtonPress = Timer.now();
-
 let updateButtonState = function(i) {
-  let time = Timer.now();
-  if (time < lastButtonPress + 1) {
-    return;
-  }
-  lastButtonPress = time;
   s.button[i].count = s.button[i].count + 1;
-
-  updateDisplay();
-  AWS.Shadow.update(0, {desired: s});
-  
-
-  let message = {
-    survey: s.title, 
-    device: id, 
-    name: s.button[i].name,
-    time: time, 
-    id: id + '-' + JSON.stringify(time)
-  };
-
-  let ok = MQTT.pub('/happyornot/survey/' + s.title, JSON.stringify(message));
-  print('MQTT pub ', ok ? "OK":"NOK", message.name);
 };
 
 GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(0);} , null);
