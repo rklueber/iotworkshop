@@ -97,16 +97,15 @@ AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
   if (event === AWS.Shadow.CONNECTED) {
     AWS.Shadow.update(0, {reported: s});
     // print('Reported: ',JSON.stringify(reported));
-    updateLedState();
   } else if (event === AWS.Shadow.UPDATE_DELTA) {
     for (let key in s) {
       if (desired[key] !== undefined) s[key] = desired[key];
     }
     // print('Desired: ',JSON.stringify(desired));
     AWS.Shadow.update(0, {reported: s});
-    updateLedState();
-    updateDisplay();
   }
+  updateLedState();
+  updateDisplay();
 }, null);
 
 /* ###############
@@ -146,9 +145,10 @@ let updateButtonState = function(i) {
   }
   lastButtonPress = time;
   s.button[i].count = s.button[i].count + 1;
+
+  updateDisplay();
   AWS.Shadow.update(0, {desired: s});
   
-  updateDisplay();
 
   let message = {
     survey: s.title, 
@@ -160,11 +160,6 @@ let updateButtonState = function(i) {
 
   let ok = MQTT.pub('/happyornot/survey/' + s.title, JSON.stringify(message));
   print('MQTT pub ', ok ? "OK":"NOK", message.name);
-};
-
-let bp = 0;
-let buttonTest = function(i) {
-  print('Button pressed', bp++);
 };
 
 GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(0);} , null);
