@@ -60,11 +60,17 @@ for(let i=0;i<hwConfig.nOfButtons;i++) {
   GPIO.set_mode(hwConfig.buttonPin[i],GPIO.MODE_INPUT);
 }
 
+let lastButtonPress = Timer.now();
+
 let updateButtonState = function(i) {
+  if (Timer.now() < lastButtonPress + 1) {
+    return
+  }
+  lastButtonPress = Timer.now();
   s.button[i].count = s.button[i].count + 1;
 };
 
-GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(0);} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[1], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(1);} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[2], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(2);} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[3], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(3);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(0);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[1], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(1);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[2], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(2);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[3], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(3);} , null);
