@@ -142,7 +142,7 @@ let updateButtonState = function(i) {
   print('MQTT pub ', ok ? "OK":"NOK", message.name);
 };
 
-GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(0);} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[1], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(1);} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[2], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(2);} , null);
-GPIO.set_button_handler(hwConfig.buttonPin[3], GPIO.PULL_UP, GPIO.INT_EDGE_NEG, 1000, function() {updateButtonState(3);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[0], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(0);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[1], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(1);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[2], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(2);} , null);
+GPIO.set_button_handler(hwConfig.buttonPin[3], GPIO.PULL_UP, GPIO.INT_EDGE_POS, 1000, function() {updateButtonState(3);} , null);
