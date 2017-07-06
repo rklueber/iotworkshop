@@ -6,7 +6,6 @@ load('api_sys.js');
 load('api_timer.js');
 load('api_mqtt.js');
 load('api_i2c.js');
-load('api_arduino_ssd1306.js');
 load('api_math.js');
 
 let hwConfig = {
@@ -52,46 +51,9 @@ strip.clear();
 
 updateLedState();
 
-/* ###############
-   Handle Display
-   ############### */
-
-// Initialize the display.
-let d = Adafruit_SSD1306.create_i2c(4 /* RST GPIO */, Adafruit_SSD1306.RES_128_64);
-d.begin(Adafruit_SSD1306.SWITCHCAPVCC, 0x3C, true /* reset */);
-// d.display(); Ohne diese Zeile wird die Splashscreen nicht angezeigt.
-
-let updateDisplay = function() {
-
-  let max = 1;
-  for(let i=0;i<hwConfig.nOfButtons;i++) {
-    if (max < s.button[i].count) {
-      max = s.button[i].count;
-    }
-  }
-  
-  d.clearDisplay();
-  d.setTextColor(Adafruit_SSD1306.INVERSE);
-  d.setTextSize(1);
-  
-  let w = Math.floor((d.width() - hwConfig.nOfButtons)/hwConfig.nOfButtons);
-  let h = 0;
-  for(let i=0;i<hwConfig.nOfButtons;i++) {
-    h = Math.max(1, Math.ceil(s.button[i].count / max * d.height()));
-    // print("Draw:", i*w, h, max);
-    d.fillRoundRect(i * w, d.height() - h, w - 1, h, 3, Adafruit_SSD1306.WHITE);
-    d.setCursor(i*w + w * 0.35, d.height() - 11 );
-    d.write(JSON.stringify(s.button[i].count));
-  }
-  
-  d.display();
-};
-
-updateDisplay(); // necessary to show start values
-
-/* ###############
-   Handle AWS Shadows
-   ############### */
+// ###############
+//   Handle AWS Shadows
+//   ###############
 
 AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
   if (event === AWS.Shadow.CONNECTED) {
@@ -105,7 +67,6 @@ AWS.Shadow.setStateHandler(function(data, event, reported, desired) {
     AWS.Shadow.update(0, {reported: s});
   }
   updateLedState();
-  updateDisplay();
 }, null);
 
 /* ###############
@@ -122,7 +83,6 @@ MQTT.sub('/happyornot/survey/' + s.title, function(conn, topic, msgTxt) {
         s.button[i].count = s.button[i].count + 1;
       }
     }
-    updateDisplay();
     AWS.Shadow.update(0, {desired: s});
   }
 }, null);
@@ -146,7 +106,6 @@ let updateButtonState = function(i) {
   lastButtonPress = time;
   s.button[i].count = s.button[i].count + 1;
 
-  updateDisplay();
   AWS.Shadow.update(0, {desired: s});
   
 
