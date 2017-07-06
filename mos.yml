@@ -36,6 +36,6 @@ libs:
   - origin: https://github.com/mongoose-os-libs/vfs-dev-spi-flash
 
     # libs necessary for the current app
-  - origin: https://github.com/rklueber/arduino-adafruit-ssd1306
+  - origin: https://github.com/mongoose-os-libs/arduino-adafruit-ssd1306
   - origin: https://github.com/mongoose-os-libs/aws
   - origin: https://github.com/mongoose-os-libs/mjs

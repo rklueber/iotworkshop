@@ -79,7 +79,7 @@ let updateDisplay = function() {
   for(let i=0;i<hwConfig.nOfButtons;i++) {
     h = Math.max(1, Math.ceil(s.button[i].count / max * d.height()));
     // print("Draw:", i*w, h, max);
-    d.fillRoundRect(i * w, d.height() - h, w - 1, h, 3, Adafruit_SSD1306.WHITE);
+    // d.fillRoundRect(i * w, d.height() - h, w - 1, h, 3, Adafruit_SSD1306.WHITE);
     d.setCursor(i*w + w * 0.35, d.height() - 11 );
     d.write(JSON.stringify(s.button[i].count));
   }
